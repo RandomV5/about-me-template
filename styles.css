@@ -1,0 +1,25 @@
+.banner{
+    
+    background-color: teal;
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+
+}
+.main{
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+}
+.list{
+    max-width: fit-content;
+    margin: auto;
+}
+body{
+    background-color:gray ;
+}
