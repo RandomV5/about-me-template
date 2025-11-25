@@ -1,25 +1,26 @@
 .banner{
     
-    background-color: teal;
-    width: auto;
-    height: 200px;
-    overflow: hidden;
+    background-color: teal;/*if you choose to not put images, this color will appear as a placeholder*/
+    width: auto;/* matches .main */
+    height: 200px;/* the height for the banner*/
+    overflow: hidden;/*will make the image not take up the whole page */
 
 }
 .main{
-    height: 1000px;
-    width: 1000px;
-    margin: auto;
-    background-color: #f0f0f0;
-    border-radius: 50px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 25px;
+    height: 1000px;/* change to auto to fit with your text and grow without changing it manually or set it to an specific px(will have to expand if it gets big)*/
+    width: 1000px;/* not good for mobile but useful for big screens, change this if it is a little to big*/
+    margin: auto;/* automatically centers all of the content to the middle*/
+    background-color: #f0f0f0; /*color for the main page */
+    border-radius: 50px;/* usually for roundness*/
+    overflow: hidden;/* hides stuff that exceeds the parameters*/
+    text-align: center;/* centers text*/
+    font-size: 25px;/* a big font for big screens, change to your liking*/
 }
 .list{
-    max-width: fit-content;
-    margin: auto;
+    max-width: fit-content;/*changes width to fit all text */
+    /* this was made so the dots in LI centered to the webpage*/
+    margin: auto;/* centers the div list*/
 }
 body{
-    background-color:gray ;
+    background-color:gray ;/* used for the background color*/
 }

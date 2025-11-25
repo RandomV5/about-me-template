@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
-        <title>A cool page</title>
+        <title>About me</title><!-- this is used for the cloaker, change-->
     </head>
     <body>
-        <div class="main">
-        <div class="banner"><img src="baner.jpg" width="1000px" height="300px"></div>
+        <div class="main"><!--this is where all the content is displayed-->
+        <div class="banner"><!--this is where the image/plain color goes-->
+            <img src="baner.jpg" width="1000px" height="300px"><!--This is a template image, if no image is pute here it will display a color banner(teal in this example)-->
+            <link rel="icon" type="image/png" href="icon.png"><!--this is used to display a favicon next to the title, use a png and rename it logo-->
+            <!-- i reccommend adding a photo with a ratio similar to this or adjust size of div in styles.css-->
+        </div><!--end of banner-->
         <h1>Welcome To My Cool Site</h1>
         <p> Hi, Im [Name] Im a [skill], [skill2] and a [skill3].</p>
         <p> I like things such as,</p>
         <div class="list">
-        <ul class="bullet">
+        <ul class="bullet"><!--add more bullets with the tag <li>-->
             <li>Preference 1</li>
             <li>Preference 2</li>
             <li>Preference 3</li>
@@ -21,11 +23,12 @@
         </div>
         <h3>Here Are My Contact Links</h3>
         <div class="list">
-        <ul class="bullet">
+        <ul class="bullet"><!--again same for this one-->
             <li><a href="outlook.com">Email</a></li>
             <li><a href="Youtube.com">Youtube</a></li>
+            <li><a href="example.com">Example</a></li>
         </ul>
         </div>
-        </div>
+        </div><!--end of the things embedded in the main part, write any footer beyond this but before body-->
     </body>
 </html>
